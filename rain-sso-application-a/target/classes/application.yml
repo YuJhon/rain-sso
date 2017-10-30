@@ -1,0 +1,14 @@
+server:
+  port: 8069
+  context-path: /a
+
+security:
+  oauth2:
+    client:
+      client-id: sso-1
+      client-secret: sso-secret1
+      user-authorization-uri: http://localhost:9999/server/oauth/authorize
+      access-token-uri: http://localhost:9999/server/oauth/token
+    resource:
+      jwt:
+        key-uri: http://localhost:9999/server/oauth/token_key

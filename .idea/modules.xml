@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rain-sso.iml" filepath="$PROJECT_DIR$/rain-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rain-sso-application-a/rain-sso-application-a.iml" filepath="$PROJECT_DIR$/rain-sso-application-a/rain-sso-application-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rain-sso-application-b/rain-sso-application-b.iml" filepath="$PROJECT_DIR$/rain-sso-application-b/rain-sso-application-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rain-sso-server/rain-sso-server.iml" filepath="$PROJECT_DIR$/rain-sso-server/rain-sso-server.iml" />
+    </modules>
+  </component>
+</project>

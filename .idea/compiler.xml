@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rain-sso-application-a" />
+        <module name="rain-sso-application-b" />
+        <module name="rain-sso-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rain-sso" target="1.8" />
+      <module name="rain-sso-application-a" target="1.8" />
+      <module name="rain-sso-application-b" target="1.8" />
+      <module name="rain-sso-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

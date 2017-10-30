@@ -1,0 +1,14 @@
+server:
+  port: 8062
+  context-path: /b
+
+security:
+  oauth2:
+    client:
+      clientId: sso-2
+      clientSecret: sso-secret2
+      user-authorization-uri: http://localhost:9999/server/oauth/authorize
+      access-token-uri: http://localhost:9999/server/oauth/token
+    resource:
+      jwt:
+        key-uri: http://localhost:9999/server/oauth/token_key
